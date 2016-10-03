@@ -86,5 +86,8 @@
   <project path="system/security" name="platform_system_security" groups="pdk" remote="jdc" />
   <project path="system/vold" name="platform_system_vold" groups="pdk" remote="jdc" />
 
+  <!-- DUI -->
+  <project path="external/DUtils" name="platform_external_DUtils" remote="aos" />
+  <project path="packages/apps/DUI" name="platform_packages_apps_DUI" remote="aos" />
 
 </manifest>
