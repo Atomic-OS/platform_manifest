@@ -75,7 +75,6 @@
   <project path="packages/apps/HTMLViewer" name="platform_packages_apps_HTMLViewer" groups="pdk-fs" remote="jdc" />
   <project path="packages/apps/Nfc" name="platform_packages_apps_Nfc" remote="jdc" />
   <project path="packages/apps/Stk" name="platform_packages_apps_Stk" groups="apps_stk,pdk-fs" remote="jdc" />
-  <project path="packages/apps/STweaks" name="STweaks" remote="jdc" />
   <project path="packages/inputmethods/LatinIME" name="platform_packages_inputmethods_LatinIME" groups="pdk-fs" remote="jdc" />
   <project path="packages/providers/ContactsProvider" name="platform_packages_providers_ContactsProvider" groups="pdk-cw-fs,pdk-fs" remote="jdc" />
   <project path="packages/providers/DownloadProvider" name="platform_packages_providers_DownloadProvider" groups="pdk-cw-fs,pdk-fs" remote="jdc" />
