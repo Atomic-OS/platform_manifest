@@ -462,7 +462,6 @@
   <project path="hardware/qcom/keymaster" name="platform_hardware_qcom_keymaster" groups="qcom,qcom_keymaster" remote="jdc" />
 
   <!-- Lineage OS -->
-  <project path="device/qcom/common" name="LineageOS/android_device_qcom_common" remote="github" revision="cm-14.1" />
   <project path="external/ahbottomnavigation" name="LineageOS/android_external_ahbottomnavigation" remote="github" revision="cm-14.1" />
   <project path="external/ant-wireless/ant_native" name="LineageOS/android_external_ant-wireless_ant_native" remote="github" revision="cm-14.1" />
   <project path="external/ant-wireless/ant_service" name="LineageOS/android_external_ant-wireless_ant_service" remote="github" revision="cm-14.1" />

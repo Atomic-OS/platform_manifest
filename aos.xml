@@ -14,6 +14,7 @@
   <project path="art" name="platform_art" groups="pdk" remote="aos" />
   <project path="vendor/aos" name="platform_vendor_aos" remote="aos" />
   <project path="bionic" name="platform_bionic" groups="pdk" remote="aos" />
+  <project path="device/qcom/common" name="platform_device_qcom_common" remote="aos" />
   <project path="device/qcom/sepolicy" name="platform_device_qcom_sepolicy" remote="aos" />
   <project path="external/skia" name="platform_external_skia" groups="pdk-cw-fs,qcom_msm8x26" remote="aos" />
   <project path="frameworks/av" name="platform_frameworks_av" groups="pdk" remote="aos" />
