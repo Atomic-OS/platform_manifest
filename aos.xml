@@ -14,12 +14,14 @@
   <project path="art" name="platform_art" groups="pdk" remote="aos" />
   <project path="vendor/aos" name="platform_vendor_aos" remote="aos" />
   <project path="bionic" name="platform_bionic" groups="pdk" remote="aos" />
+  <project path="development" name="platform_development" groups="pdk-cw-fs,pdk-fs" remote="aos" />
   <project path="device/qcom/common" name="platform_device_qcom_common" remote="aos" />
   <project path="device/qcom/sepolicy" name="platform_device_qcom_sepolicy" remote="aos" />
   <project path="external/skia" name="platform_external_skia" groups="pdk-cw-fs,qcom_msm8x26" remote="aos" />
   <project path="frameworks/av" name="platform_frameworks_av" groups="pdk" remote="aos" />
   <project path="frameworks/base" name="platform_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="aos" />
   <project path="frameworks/native" name="platform_frameworks_native" groups="pdk" remote="aos" />
+  <project path="frameworks/support" name="platform_frameworks_support" groups="pdk-cw-fs,pdk-fs" remote="aos" />
   <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" groups="pdk" remote="aos" />
   <project path="packages/apps/Bluetooth" name="platform_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="aos" />
   <project path="packages/apps/Contacts" name="platform_packages_apps_Contacts" groups="pdk-fs" remote="aos" />
@@ -67,7 +69,6 @@
   <project path="external/zlib" name="platform_external_zlib" groups="pdk" remote="jdc" />
   <project path="frameworks/opt/hardware" name="platform_frameworks_opt_hardware" groups="pdk" remote="jdc" />
   <project path="frameworks/opt/net/wifi" name="platform_frameworks_opt_net_wifi" groups="pdk" remote="jdc" />
-  <project path="frameworks/support" name="platform_frameworks_support" groups="pdk-cw-fs,pdk-fs" remote="jdc" />
   <project path="libcore" name="platform_libcore" groups="pdk"  remote="jdc" />
   <project path="frameworks/opt/net/ims" name="platform_frameworks_opt_net_ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs" remote="jdc" />
   <project path="packages/apps/Browser" name="platform_packages_apps_Browser" remote="jdc" />
