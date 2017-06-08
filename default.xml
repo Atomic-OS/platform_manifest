@@ -19,6 +19,10 @@
            remote="aosp"
            sync-j="4" />
 
+  <remote  name="dnd"
+           fetch="https://github.com/DarkNess-reDefined"
+           revision="n7x" />
+
   <!-- AOSP packages -->
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" />

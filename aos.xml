@@ -43,6 +43,10 @@
   <project path="system/media" name="platform_system_media" groups="pdk" remote="aos" />
   <project path="system/sepolicy" name="platform_system_sepolicy" groups="pdk" remote="aos" />
 
+<!-- Darkness-reDefined -->
+  <project path="packages/apps/DSPManager" name="android_packages_apps_DSPManager" remote="dnd" />
+  <project path="packages/apps/MusicFX" name="packages_apps_MusicFX" remote="dnd" />
+
   <!-- AOSP-JDC -->
   <project path="bootable/recovery" name="platform_bootable_recovery" groups="pdk" remote="jdc" />
   <project path="external/android-clat" name="platform_external_android-clat" groups="pdk-cw-fs,pdk-fs" remote="jdc" />
