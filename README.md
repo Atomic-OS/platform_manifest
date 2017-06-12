@@ -18,7 +18,7 @@ Finally to build:
 ```bash
   . build/envsetup.sh
   lunch aos_devicecodename-userdebug
-  mka bacon
+  mka atomic
 ```
 Credits
 -------
