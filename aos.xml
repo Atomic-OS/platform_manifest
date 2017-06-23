@@ -75,6 +75,7 @@
   <project path="frameworks/opt/net/wifi" name="platform_frameworks_opt_net_wifi" groups="pdk" remote="jdc" />
   <project path="libcore" name="platform_libcore" groups="pdk"  remote="jdc" />
   <project path="frameworks/opt/net/ims" name="platform_frameworks_opt_net_ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs" remote="jdc" />
+  <project path="packages/apps/AudioFX" name="platform_packages_apps_AudioFX" remote="jdc" />
   <project path="packages/apps/Browser" name="platform_packages_apps_Browser" remote="jdc" />
   <project path="packages/apps/Camera2" name="platform_packages_apps_Camera2" groups="pdk-fs" remote="jdc" />
   <project path="packages/apps/CarrierConfig" name="platform_packages_apps_CarrierConfig" groups="pdk-fs" remote="jdc" />
