@@ -54,7 +54,7 @@
   <project path="external/android-clat" name="platform_external_android-clat" groups="pdk-cw-fs,pdk-fs" remote="jdc" />
   <project path="external/boringssl" name="platform_external_boringssl" groups="pdk" remote="jdc" />
   <project path="external/bzip2" name="platform_external_bzip2" groups="pdk" remote="jdc" />
-  <project path="external/chromium-webview" name="platform_external_chromium-webview" groups="pdk" remote="jdc" revision="google" />
+  <project path="external/chromium-webview" name="platform_external_chromium-webview" groups="pdk" remote="jdc" revision="google" clone-depth="1" />
   <project path="external/connectivity" name="platform_external_connectivity" remote="jdc" />
   <project path="external/iproute2" name="platform_external_iproute2" groups="pdk" remote="jdc" />
   <project path="external/ipsec-tools" name="platform_external_ipsec-tools" groups="pdk-cw-fs,pdk-fs" remote="jdc" />
