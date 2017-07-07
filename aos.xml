@@ -18,12 +18,15 @@
   <project path="development" name="platform_development" groups="pdk-cw-fs,pdk-fs" remote="aos" />
   <project path="device/qcom/common" name="platform_device_qcom_common" remote="aos" />
   <project path="device/qcom/sepolicy" name="platform_device_qcom_sepolicy" remote="aos" />
+  <project path="external/boringssl" name="platform_external_boringssl" groups="pdk" remote="aos" />
+  <project path="external/chromium-webview" name="platform_external_chromium-webview" groups="pdk" remote="aos" clone-depth="1" />
   <project path="external/skia" name="platform_external_skia" groups="pdk-cw-fs,qcom_msm8x26" remote="aos" />
   <project path="frameworks/av" name="platform_frameworks_av" groups="pdk" remote="aos" />
   <project path="frameworks/base" name="platform_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="aos" />
   <project path="frameworks/native" name="platform_frameworks_native" groups="pdk" remote="aos" />
   <project path="frameworks/support" name="platform_frameworks_support" groups="pdk-cw-fs,pdk-fs" remote="aos" />
   <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" groups="pdk" remote="aos" />
+  <project path="libcore" name="platform_libcore" groups="pdk"  remote="aos" />
   <project path="packages/apps/Bluetooth" name="platform_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="aos" />
   <project path="packages/apps/Contacts" name="platform_packages_apps_Contacts" groups="pdk-fs" remote="aos" />
   <project path="packages/apps/ContactsCommon" name="platform_packages_apps_ContactsCommon" groups="pdk-fs" remote="aos" />
@@ -38,6 +41,8 @@
   <project path="packages/apps/Settings" name="platform_packages_apps_Settings" groups="pdk-fs" remote="aos" />
   <project path="packages/apps/SnapdragonCamera" name="packages_apps_SnapdragonCamera" remote="aos" />
   <project path="packages/inputmethods/LatinIME" name="platform_packages_inputmethods_LatinIME" groups="pdk-fs" remote="aos" />
+  <project path="packages/providers/DownloadProvider" name="platform_packages_providers_DownloadProvider" groups="pdk-cw-fs,pdk-fs" remote="aos" />
+  <project path="packages/providers/MediaProvider" name="platform_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="aos" />
   <project path="packages/providers/TelephonyProvider" name="platform_packages_providers_TelephonyProvider" groups="pdk-cw-fs,pdk-fs" remote="aos" />
   <project path="packages/services/Telecomm" name="platform_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="aos" />
   <project path="packages/services/Telephony" name="platform_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="aos" />
@@ -52,9 +57,7 @@
   <!-- AOSP-JDC -->
   <project path="bootable/recovery" name="platform_bootable_recovery" groups="pdk" remote="jdc" />
   <project path="external/android-clat" name="platform_external_android-clat" groups="pdk-cw-fs,pdk-fs" remote="jdc" />
-  <project path="external/boringssl" name="platform_external_boringssl" groups="pdk" remote="jdc" />
   <project path="external/bzip2" name="platform_external_bzip2" groups="pdk" remote="jdc" />
-  <project path="external/chromium-webview" name="platform_external_chromium-webview" groups="pdk" remote="jdc" revision="google" clone-depth="1" />
   <project path="external/connectivity" name="platform_external_connectivity" remote="jdc" />
   <project path="external/iproute2" name="platform_external_iproute2" groups="pdk" remote="jdc" />
   <project path="external/ipsec-tools" name="platform_external_ipsec-tools" groups="pdk-cw-fs,pdk-fs" remote="jdc" />
@@ -75,7 +78,6 @@
   <project path="external/zlib" name="platform_external_zlib" groups="pdk" remote="jdc" />
   <project path="frameworks/opt/hardware" name="platform_frameworks_opt_hardware" groups="pdk" remote="jdc" />
   <project path="frameworks/opt/net/wifi" name="platform_frameworks_opt_net_wifi" groups="pdk" remote="jdc" />
-  <project path="libcore" name="platform_libcore" groups="pdk"  remote="jdc" />
   <project path="frameworks/opt/net/ims" name="platform_frameworks_opt_net_ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs" remote="jdc" />
   <project path="packages/apps/AudioFX" name="platform_packages_apps_AudioFX" remote="jdc" />
   <project path="packages/apps/Browser" name="platform_packages_apps_Browser" remote="jdc" />
@@ -88,8 +90,6 @@
   <project path="packages/apps/Nfc" name="platform_packages_apps_Nfc" remote="jdc" />
   <project path="packages/apps/Stk" name="platform_packages_apps_Stk" groups="apps_stk,pdk-fs" remote="jdc" />
   <project path="packages/providers/ContactsProvider" name="platform_packages_providers_ContactsProvider" groups="pdk-cw-fs,pdk-fs" remote="jdc" />
-  <project path="packages/providers/DownloadProvider" name="platform_packages_providers_DownloadProvider" groups="pdk-cw-fs,pdk-fs" remote="jdc" />
-  <project path="packages/providers/MediaProvider" name="platform_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="jdc" />
   <project path="system/bt" name="platform_system_bt" groups="pdk" remote="jdc" />
   <project path="system/extras" name="platform_system_extras" groups="pdk" remote="jdc" />
   <project path="system/keymaster" name="platform_system_keymaster" groups="pdk" remote="jdc" />
