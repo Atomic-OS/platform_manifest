@@ -100,5 +100,10 @@
   <!-- DUI -->
   <project path="external/DUtils" name="platform_external_DUtils" remote="aos" />
   <project path="packages/apps/DUI" name="platform_packages_apps_DUI" remote="aos" />
-
+  
+  <!--OTA-->
+  <project path="packages/apps/OTA" name="platform_packages_apps_OTA" remote="aos" >
+     <copyfile src="examples/ota_conf" dest="ota_conf" />
+  </project>
+  
 </manifest>
