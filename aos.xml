@@ -103,7 +103,7 @@
   
   <!--OTA-->
   <project path="packages/apps/OTA" name="platform_packages_apps_OTA" remote="aos" >
-     <copyfile src="examples/ota_conf" dest="ota_conf" />
+     <copyfile src="ota_conf" dest="ota_conf" />
   </project>
   
 </manifest>
