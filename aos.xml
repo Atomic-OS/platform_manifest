@@ -50,10 +50,6 @@
   <project path="system/media" name="platform_system_media" groups="pdk" remote="aos" />
   <project path="system/sepolicy" name="platform_system_sepolicy" groups="pdk" remote="aos" />
 
-<!-- Darkness-reDefined -->
-  <project path="packages/apps/DSPManager" name="android_packages_apps_DSPManager" remote="dnd" />
-  <project path="packages/apps/MusicFX" name="packages_apps_MusicFX" remote="dnd" />
-
   <!-- AOSP-JDC -->
   <project path="bootable/recovery" name="platform_bootable_recovery" groups="pdk" remote="jdc" />
   <project path="external/android-clat" name="platform_external_android-clat" groups="pdk-cw-fs,pdk-fs" remote="jdc" />
@@ -80,7 +76,6 @@
   <project path="frameworks/opt/hardware" name="platform_frameworks_opt_hardware" groups="pdk" remote="jdc" />
   <project path="frameworks/opt/net/wifi" name="platform_frameworks_opt_net_wifi" groups="pdk" remote="jdc" />
   <project path="frameworks/opt/net/ims" name="platform_frameworks_opt_net_ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs" remote="jdc" />
-  <project path="packages/apps/AudioFX" name="platform_packages_apps_AudioFX" remote="jdc" />
   <project path="packages/apps/Browser" name="platform_packages_apps_Browser" remote="jdc" />
   <project path="packages/apps/Camera2" name="platform_packages_apps_Camera2" groups="pdk-fs" remote="jdc" />
   <project path="packages/apps/CarrierConfig" name="platform_packages_apps_CarrierConfig" groups="pdk-fs" remote="jdc" />
