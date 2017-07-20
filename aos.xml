@@ -57,6 +57,7 @@
   <!-- AOSP-JDC -->
   <project path="bootable/recovery" name="platform_bootable_recovery" groups="pdk" remote="jdc" />
   <project path="external/android-clat" name="platform_external_android-clat" groups="pdk-cw-fs,pdk-fs" remote="jdc" />
+  <project path="external/apache-http" name="platform_external_apache-http" groups="pdk" remote="jdc" />
   <project path="external/bzip2" name="platform_external_bzip2" groups="pdk" remote="jdc" />
   <project path="external/connectivity" name="platform_external_connectivity" remote="jdc" />
   <project path="external/iproute2" name="platform_external_iproute2" groups="pdk" remote="jdc" />
