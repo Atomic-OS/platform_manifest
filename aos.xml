@@ -96,6 +96,7 @@
   <project path="system/netd" name="platform_system_netd" groups="pdk" remote="jdc" />
   <project path="system/security" name="platform_system_security" groups="pdk" remote="jdc" />
   <project path="system/vold" name="platform_system_vold" groups="pdk" remote="jdc" />
+  <project path="vendor/qcom/opensource/dpm/" name="android_vendor_qcom_opensource_dpm" remote="jdc" />
 
   <!-- DUI -->
   <project path="external/DUtils" name="platform_external_DUtils" remote="aos" />
