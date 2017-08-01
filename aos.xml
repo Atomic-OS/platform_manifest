@@ -21,6 +21,7 @@
   <project path="external/boringssl" name="platform_external_boringssl" groups="pdk" remote="aos" />
   <project path="external/chromium-webview" name="android_external_chromium-webview" groups="pdk" remote="dnd" clone-depth="1" />
   <project path="external/skia" name="platform_external_skia" groups="pdk-cw-fs,qcom_msm8x26" remote="aos" />
+  <project path="external/sqlite" name="platform_external_sqlite" groups="pdk" remote="aos" />
   <project path="frameworks/av" name="platform_frameworks_av" groups="pdk" remote="aos" />
   <project path="frameworks/base" name="platform_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="aos" />
   <project path="frameworks/native" name="platform_frameworks_native" groups="pdk" remote="aos" />
@@ -51,6 +52,7 @@
   <project path="system/core" name="platform_system_core" groups="pdk" remote="aos" />
   <project path="system/media" name="platform_system_media" groups="pdk" remote="aos" />
   <project path="system/sepolicy" name="platform_system_sepolicy" groups="pdk" remote="aos" />
+  <project path="vendor/qcom/sdclang-3.8/linux-x86" name="platform_vendor_qcom_sdclang-3.8_linux-x86" remote="aos" />
 
   <!-- AOSP-JDC -->
   <project path="bootable/recovery" name="platform_bootable_recovery" groups="pdk" remote="jdc" />
