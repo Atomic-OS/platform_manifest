@@ -20,6 +20,7 @@
   <project path="device/qcom/sepolicy" name="platform_device_qcom_sepolicy" remote="aos" />
   <project path="external/boringssl" name="platform_external_boringssl" groups="pdk" remote="aos" />
   <project path="external/chromium-webview" name="android_external_chromium-webview" groups="pdk" remote="dnd" clone-depth="1" />
+  <project path="external/jemalloc" name="platform_external_jemalloc" groups="pdk" remote="aos" />
   <project path="external/skia" name="platform_external_skia" groups="pdk-cw-fs,qcom_msm8x26" remote="aos" />
   <project path="external/sqlite" name="platform_external_sqlite" groups="pdk" remote="aos" />
   <project path="frameworks/av" name="platform_frameworks_av" groups="pdk" remote="aos" />
@@ -62,7 +63,6 @@
   <project path="external/connectivity" name="platform_external_connectivity" remote="jdc" />
   <project path="external/iproute2" name="platform_external_iproute2" groups="pdk" remote="jdc" />
   <project path="external/ipsec-tools" name="platform_external_ipsec-tools" groups="pdk-cw-fs,pdk-fs" remote="jdc" />
-  <project path="external/jemalloc" name="platform_external_jemalloc" groups="pdk" remote="jdc" />
   <project path="external/libchrome" name="platform_external_libchrome" remote="jdc" />
   <project path="external/libjpeg-turbo" name="platform_external_libjpeg-turbo" groups="pdk" remote="jdc" />
   <project path="external/libselinux" name="platform_external_libselinux" groups="pdk" remote="jdc" />
