@@ -26,5 +26,8 @@
   <project path="system/core" name="platform_system_core" groups="pdk" remote="aos" />
   <project path="system/sepolicy" name="platform_system_sepolicy" groups="pdk" remote="aos" />
   <project path="vendor/aos" name="platform_vendor_aos" remote="aos" />
+  <project path="hardware/aos/interfaces" name="hardware_aos_interfaces" remote="aos" >
+      <copyfile dest="hardware/aos/Android.bp" src="Android.bp"/>
+  </project>
 
 </manifest>
