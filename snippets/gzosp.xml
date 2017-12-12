@@ -14,14 +14,10 @@
   <project path="external/libnfc-nxp" name="external_libnfc-nxp" remote="gzosp" />
   <project path="external/mksh" name="external_mksh" groups="pdk" remote="gzosp" />
   <project path="external/nano" name="external_nano" remote="gzosp" />
-  <project path="external/tinycompress" name="external_tinycompress" groups="pdk" remote="gzosp" />
-  <project path="external/selinux" name="external_selinux" groups="pdk" remote="gzosp" />
   <project path="external/toybox" name="external_toybox" groups="pdk" remote="gzosp" />
   <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" groups="pdk" remote="gzosp" />
-  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" groups="pdk" remote="gzosp" />
   <project path="hardware/broadcom/libbt" name="hardware_broadcom_libbt" groups="pdk" remote="gzosp" />
   <project path="hardware/interfaces" name="hardware_interfaces" groups="pdk" remote="gzosp" />
-  <project path="hardware/libhardware" name="hardware_libhardware" remote="gzosp" />
   <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" groups="pdk" remote="gzosp" />
   <project path="hardware/ril" name="hardware_ril" groups="pdk" remote="gzosp" />
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="gzosp" />
@@ -37,7 +33,6 @@
   <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" groups="pdk-cw-fs,pdk-fs" remote="gzosp" />
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="gzosp" />
   <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" groups="pdk-cw-fs,pdk-fs" remote="gzosp" />
-  <project path="packages/services/Telecomm" name="packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="gzosp" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="gzosp" />
   <project path="system/bt" name="system_bt" groups="pdk" remote="gzosp" />
   <project path="system/hardware/interfaces" name="system_hardware_interfaces" groups="pdk" remote="gzosp" />
@@ -46,6 +41,5 @@
   <project path="system/media" name="system_media" groups="pdk" remote="gzosp" />
   <project path="system/netd" name="system_netd" groups="pdk" remote="gzosp" />
   <project path="system/nfc" name="system_nfc" groups="pdk" remote="gzosp" />
-  <project path="system/vold" name="system_vold" groups="pdk" remote="gzosp" />
 
 </manifest>
