@@ -20,15 +20,15 @@
            sync-j="4" />
 
   <!-- AOSP -->
-  <include name="snippets/aosp.xml" />
+  <include name="aosp.xml" />
 
   <!-- CAF -->
   <include name="snippets/caf.xml" />
 
   <!-- GZOSP -->
-  <include name="snippets/gzosp.xml" />
+  <include name="gzosp.xml" />
 
   <!-- Atomic-OS -->
-  <include name="snippets/aos.xml" />
+  <include name="aos.xml" />
 
 </manifest>
