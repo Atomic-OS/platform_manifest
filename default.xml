@@ -23,7 +23,7 @@
   <include name="aosp.xml" />
 
   <!-- CAF -->
-  <include name="snippets/caf.xml" />
+  <include name="caf.xml" />
 
   <!-- GZOSP -->
   <include name="gzosp.xml" />
