@@ -33,6 +33,7 @@
   <project path="system/core" name="platform_system_core" groups="pdk" remote="aos" />
   <project path="system/extras" name="platform_system_extras" groups="pdk" remote="aos" />
   <project path="system/libhidl" name="platform_system_libhidl" groups="pdk" remote="aos" />
+  <project path="system/nfc" name="platform_system_nfc" groups="pdk" remote="aos" />
   <project path="system/sepolicy" name="platform_system_sepolicy" groups="pdk" remote="aos" />
   <project path="system/vold" name="platform_system_vold" groups="pdk" remote="aos" />
   <project path="vendor/aos" name="platform_vendor_aos" remote="aos" />

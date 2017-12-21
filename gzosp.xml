@@ -38,6 +38,5 @@
   <project path="system/hwservicemanager" name="system_hwservicemanager" groups="pdk" remote="gzosp" />
   <project path="system/media" name="system_media" groups="pdk" remote="gzosp" />
   <project path="system/netd" name="system_netd" groups="pdk" remote="gzosp" />
-  <project path="system/nfc" name="system_nfc" groups="pdk" remote="gzosp" />
 
 </manifest>
