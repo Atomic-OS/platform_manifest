@@ -15,7 +15,7 @@
            fetch="https://github.com/Atomic-OS"
            revision="oreo" />
 
-  <default revision="refs/tags/android-8.1.0_r1"
+  <default revision="refs/tags/android-8.1.0_r7"
            remote="aosp"
            sync-j="4" />
 
