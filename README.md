@@ -5,11 +5,11 @@ Getting Started
 ---------------
 To initialize your local repository using the our trees, use a command like this:
 
-    repo init -u https://github.com/Atomic-OS/platform_manifest.git -b oreo
+    repo init -u https://github.com/Atomic-OS/platform_manifest.git -b oreo-ims
 
 or if you use ssh:
 
-    repo init -u git@github.com:Atomic-OS/platform_manifest.git -b oreo
+    repo init -u git@github.com:Atomic-OS/platform_manifest.git -b oreo-ims
 
 Then to sync up:
 ---------------
