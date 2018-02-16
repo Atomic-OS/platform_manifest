@@ -60,7 +60,10 @@
   <project path="hardware/aos/interfaces" name="hardware_aos_interfaces" remote="aos" >
       <copyfile dest="hardware/aos/Android.bp" src="Android.bp"/>
   </project>
+
+  <!-- Docs -->
   <project path="ota" name="ota_devices" remote="devices" revision="master" />
+  <project path="xda-template" name="docs" remote="aos" />
 
   <!-- DUI -->
   <project path="external/DUtils" name="platform_external_DUtils" remote="aos" />
