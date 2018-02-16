@@ -21,6 +21,10 @@
            fetch="https://github.com/Atomic-OS"
            revision="oreo" />
 
+  <remote  name="devices"
+           fetch="https://github.com/TeamDarkness-Devices"
+           revision="oreo" />
+
   <default revision="refs/tags/android-8.1.0_r14"
            remote="aosp"
            sync-j="4" />
