@@ -25,7 +25,7 @@
            fetch="https://github.com/TeamDarkness-Devices"
            revision="oreo" />
 
-  <default revision="refs/tags/android-8.1.0_r18"
+  <default revision="refs/tags/android-8.1.0_r20"
            remote="aosp"
            sync-j="4" />
 
