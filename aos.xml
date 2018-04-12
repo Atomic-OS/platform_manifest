@@ -34,7 +34,6 @@
   <project path="packages/apps/Laboratory" name="platform_packages_apps_Laboratory" remote="aos" />
   <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" groups="pdk-fs" remote="aos" />
   <project path="packages/apps/Dialer" name="platform_packages_apps_Dialer" groups="pdk-fs" remote="aos" />
-  <project path="packages/apps/PhoneCommon" name="platform_packages_apps_PhoneCommon" groups="pdk-cw-fs,pdk-fs" remote="aos" revision="oreo-ims" />
   <project path="packages/inputmethods/LatinIME" name="platform_packages_inputmethods_LatinIME" groups="pdk-fs" remote="aos" />
   <project name="omnirom/android_packages_apps_MusicFX" path="packages/apps/MusicFX" remote="github" revision="android-8.1" />
   <project name="omnirom/android_packages_apps_DSPManager" path="packages/apps/DSPManager" remote="github" revision="android-8.1" />
