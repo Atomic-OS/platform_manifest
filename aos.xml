@@ -22,7 +22,7 @@
   <project path="external/selinux" name="platform_external_selinux" groups="pdk" remote="aos" />
   <project path="external/tinycompress" name="platform_external_tinycompress" groups="pdk" remote="aos" />
   <project path="frameworks/av" name="platform_frameworks_av" groups="pdk" remote="aos" />
-  <project path="frameworks/base" name="platform_frameworks_base" remote="aos" revision="oreo-ims" />
+  <project path="frameworks/base" name="platform_frameworks_base" remote="aos" />
   <project path="frameworks/native" name="platform_frameworks_native" groups="pdk" remote="aos" />
   <project path="frameworks/opt/net/ims" name="platform_frameworks_opt_net_ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs" remote="aos" revision="oreo-ims" />
   <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" groups="pdk" remote="aos" revision="oreo-ims" />
