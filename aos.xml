@@ -68,8 +68,7 @@
   <project path="xda-template" name="docs" remote="aos" />
 
   <!-- DUI -->
-  <project path="external/DUtils" name="platform_external_DUtils" remote="aos" />
-  <project path="packages/apps/DUI" name="platform_packages_apps_DUI" remote="aos" />
+  <project path="external/DUI" name="platform_external_DUI" remote="aos" />
 
   <!-- Prebuilt -->
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linaro-7.2" name="PixelExperience/prebuilts_gcc_linux-x86_aarch64_aarch64-linaro-7.2" remote="gitlab" revision="master" clone-depth="1" />
